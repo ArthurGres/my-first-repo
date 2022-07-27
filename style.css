@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    padding-top: 100px;
+
+}
+html, body {
+    height: 100%;
+    
+}
+.container {
+    width: 1000px;
+    margin: 0auto;
+    height: 100%;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.box1 {
+    background: #ffeded;
+}
+.box2 {
+    background: #e0fecc;
+}
+.box3 {
+    background: #d6eeff
+}
+
+.box-item {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    background: silver;
+    margin: 20px;
+}
